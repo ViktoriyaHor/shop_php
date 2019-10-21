@@ -1,0 +1,325 @@
+.brand-picture{
+	position: relative;
+	background-color: #fff;
+	transition: all .5s;
+}
+.brand-picture img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	padding: 5px;
+}
+.brand-picture a{
+	z-index: 15;
+	position: absolute;
+	top: 25%;
+	left: 31%;
+}
+.brand:hover img{
+	transform: rotate(30deg);
+}
+.color-brand{
+	color: #f23534;
+}
+header .form-inline {
+    -ms-flex-flow: row wrap;
+    flex-flow: row nowrap;
+ }
+header input{
+    margin: 3px;
+}
+.bordert{
+	border-top: 1px #ccc solid;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f23534;
+}
+.btn-outline-danger:hover {
+    color: #f23534;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #f23534;
+} 
+.menu .nav-item{
+	position: relative;
+}
+.menu .active .nav-link:after{
+	content:'';
+	display: none;
+	height: 1px;
+	width: 80%; 
+	margin: 0 auto;
+	position: absolute;
+	bottom: 7px;
+	left: 10%;
+	background: #f23534;
+	transition: all .5s;
+}
+.menu .nav-link:after{
+	content:'';
+	display: none;
+	height: 1px;
+	width: 0; 
+	margin: 0 auto;
+	position: absolute;
+	bottom: 7px;
+	left: 50%;
+	background: #f23534;
+	transition: all .5s;
+}
+#katalog-action{
+	background: url("/photos/bg1.jpg");
+}
+#katalog-action h2{
+	padding-left: 15px;
+	background: #f23534;
+	border-bottom: 3px #ccc solid;
+}
+.menu-katalog{
+	padding-right: 1rem;
+	border-top: 1px #ccc solid;
+	background: #f8f9fa;
+}
+.menu-katalog .btn{
+	text-align: left;
+}
+.btn-secondary {
+    color: #000;
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-secondary:hover {
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.show>.btn-secondary.dropdown-toggle {
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 8%;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+}
+@keyframes detail {
+  from {margin-bottom: -10rem;
+  	opacity: 0;}
+  to {margin-bottom: 0rem;
+  	opacity: 1;}
+}
+/* The element to apply the animation to */
+.detail{
+	width: 40%;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 10rem;
+	margin-bottom: 0rem;
+	animation-name: detail;
+  	animation-duration: 3s;
+  	opacity: 1;
+}
+.action:hover h5{
+	color: #f23534;
+	text-shadow: 3px 2px 2px #fff; 
+}	
+.dropdown-toggle:hover{
+	color: #f23534;		
+}	
+.dropright:hover{
+	color: #f23534;		
+}
+.all .dropdown-toggle::after {
+    display: none;
+ }
+.all {
+	border-top: 1px #ccc solid;
+}
+.btn-outline-danger:hover{
+	background: #FFF;
+}
+#banner h3, #popular h3, #about h3, #contact h3, #blog h3{
+	margin-top: 10px;
+	background: #f8f9fa;
+	padding: 10px;
+}
+.position{
+	position: relative;
+	border: 1px solid #d5d5d5;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
+}
+.block-1{
+	background: url("/photos/block-1.jpg") 100%;
+	background-size: contain;
+	height: 200px;
+}
+.block-2{
+	background: url("/photos/block-2.jpg") 100%;
+	background-size: contain;
+	height: 200px;
+}
+.block-3{
+	background: url("/photos/block-3.jpg") 100%;
+	background-size: contain;
+	height: 200px;
+}
+.block-4{
+	background: url("/photos/block-4.jpg") 100%;
+	background-size: contain;
+	height: 200px;
+}
+.position .description{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	width: 50%;
+}
+.position h4{
+	transition: all .5s;
+}
+.position:hover h4{
+	transform: scale(1.1);
+	color: #f23534;
+}
+.position:hover{
+	box-shadow: 0 0 12px 0 rgba(0,0,0,.2);
+}
+.clip-path{
+-webkit-clip-path: polygon(75% 0, 100% 0, 100% 100%, 50% 100%);
+clip-path: polygon(75% 0, 100% 0, 100% 100%, 50% 100%);
+}
+.reklame{
+	width: 100%;
+	height: 300px;
+	background: url("/photos/call.jpg") -40% fixed;
+	background-size: cover;
+	position: relative;
+	}
+.reklame:after{
+	content:'';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	background: #f23534;
+	opacity: 0.8;
+	top: 0;
+	left: 0;
+	-webkit-clip-path: polygon(60% 0, 100% 0, 100% 100%, 45% 100%);
+clip-path: polygon(60% 0, 100% 0, 100% 100%, 45% 100%);
+}
+.content{
+	position: absolute;
+	color: #fff;
+	top: 30%;
+	right: 0;
+	z-index: 10;
+}
+.content h3{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 150%;
+}
+.choice .btn-light:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+.price{
+	border-top: 1px dotted #ccc;	 
+}
+#popular img{
+	max-width: 60%;
+	margin-bottom: 5px;
+}
+#blog img{
+	max-width: 100%;
+}
+#popular .position:hover h5{
+	color: #f23534;
+}
+#popular .position{
+	padding: 10px;
+	min-height: 60vh;
+}
+.name-product{
+    height: 75px;
+    overflow: hidden;
+    margin: 5px;
+}
+.description-product{
+	text-align: left;
+	height: 100px;
+}
+footer{
+	background: #f8f9fa;
+	padding-top: 4rem; 
+}
+.icons a{
+	color: #f23534;
+	background: #fff;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	transition: all .5s;
+	margin:1.5rem 0.5rem;
+}
+footer i{
+	padding: 5px;
+}
+.icons a:hover{
+	background: #ccc;
+}
+.bg{
+	padding-right: 0;
+	padding-left: 0;
+	box-sizing: border-box;
+}
+#about img{
+	width: 100%;
+}
+.info div{
+	width: 70%;
+	border:1px solid #ccc;
+}
+.info h5{
+	background: #f23534;
+	padding: 5px 10px;
+	margin: 0 -15px;
+}
+#contact h4{
+	margin: 10px;
+}
+input, textarea{
+	margin: 0 0 0.5rem 0;
+}
+#contact .form-control {
+    width: 90%;
+   }
+#blog .row:hover h5{
+	color: #f23534;
+}
+@media screen and (min-width: 768px){
+	#popular .position {
+    min-height: 80vh;
+	}
+	.menu .active .nav-link:after{
+		display: block;
+	}
+	.menu .nav-link:after{
+		display: block;
+	}
+	.menu .nav-item:hover .nav-link:after{
+		width: 80%; 
+		left: 10%;
+	}
